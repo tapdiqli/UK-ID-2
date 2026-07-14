@@ -1,0 +1,98 @@
+@import "tailwindcss";
+
+@theme {
+  /* Brand palette — Forest Green */
+  --color-forest-50: #eef6ef;
+  --color-forest-100: #d6ecd8;
+  --color-forest-200: #aedcb2;
+  --color-forest-300: #86cb8c;
+  --color-forest-400: #66bb6a;
+  --color-forest-500: #43a047;
+  --color-forest-600: #2e7d32;
+  --color-forest-700: #256a29;
+  --color-forest-800: #1b5e20;
+  --color-forest-900: #12401a;
+
+  --color-ink: #263238;
+  --color-ink-soft: #37474f;
+  --color-ink-muted: #607d8b;
+
+  --color-cream: #f7faf7;
+
+  --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
+  --font-display: var(--font-poppins), var(--font-inter), sans-serif;
+
+  --shadow-brand: 0 20px 45px -20px rgba(27, 94, 32, 0.45);
+  --shadow-card: 0 10px 30px -15px rgba(38, 50, 56, 0.25);
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #263238;
+}
+
+* {
+  border-color: rgba(38, 50, 56, 0.1);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@layer utilities {
+  .container-page {
+    width: 100%;
+    max-width: 80rem;
+    margin-inline: auto;
+    padding-inline: 1.25rem;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .bg-grid {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+    background-size: 42px 42px;
+  }
+
+  .bg-forest-radial {
+    background:
+      radial-gradient(80% 120% at 15% 0%, #2e7d32 0%, #1b5e20 45%, #12401a 100%);
+  }
+}
+
+.animate-fade-up {
+  animation: fadeUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  .animate-fade-up {
+    animation: none;
+  }
+}

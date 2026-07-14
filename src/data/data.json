@@ -1,0 +1,249 @@
+{
+  "site": {
+    "name": "BritCasinoChoice",
+    "domain": "britcasinochoice.com",
+    "url": "https://britcasinochoice.com",
+    "tagline": "Independent UK Casino Comparison",
+    "description": "BritCasinoChoice is an independent guide to UK-licensed online casinos. Compare bonuses, games, payout speeds and safety ratings — all reviewed for players aged 18 and over.",
+    "email": "hello@britcasinochoice.com",
+    "country": "United Kingdom",
+    "language": "en-GB",
+    "foundedYear": 2021,
+    "socials": {
+      "twitter": "https://twitter.com",
+      "facebook": "https://facebook.com",
+      "instagram": "https://instagram.com"
+    }
+  },
+  "compliance": {
+    "ageLimit": 18,
+    "primaryWarning": "Gambling can be addictive. Please play responsibly. 18+ only.",
+    "regulator": {
+      "name": "UK Gambling Commission",
+      "shortName": "UKGC",
+      "url": "https://www.gamblingcommission.gov.uk"
+    },
+    "helpOrganisations": [
+      {
+        "name": "BeGambleAware",
+        "url": "https://www.begambleaware.org",
+        "phone": "0808 8020 133",
+        "description": "Free, confidential help and advice for anyone affected by gambling."
+      },
+      {
+        "name": "GamCare",
+        "url": "https://www.gamcare.org.uk",
+        "phone": "0808 8020 133",
+        "description": "Support, information and counselling for problem gambling."
+      },
+      {
+        "name": "GAMSTOP",
+        "url": "https://www.gamstop.co.uk",
+        "phone": "",
+        "description": "Free self-exclusion scheme for online gambling in Great Britain."
+      },
+      {
+        "name": "Gamblers Anonymous",
+        "url": "https://www.gamblersanonymous.org.uk",
+        "phone": "",
+        "description": "Fellowship of people who share their experience to recover from a gambling problem."
+      }
+    ],
+    "regBadges": [
+      {
+        "name": "GambleAware",
+        "url": "https://www.gambleaware.org/",
+        "image": "/reg/gambleaware.svg"
+      },
+      {
+        "name": "GamCare",
+        "url": "https://www.gamcare.org.uk/",
+        "image": "/reg/gamcare.svg"
+      },
+      {
+        "name": "GAMSTOP",
+        "url": "https://www.gamstop.co.uk/",
+        "image": "/reg/gamstop.svg"
+      },
+      {
+        "name": "Take Time to Think",
+        "url": "https://www.taketimetothink.co.uk/",
+        "image": "/reg/take-time-to-think.png"
+      },
+      {
+        "name": "Safer Gambling Week",
+        "url": "https://safergamblinguk.org/",
+        "image": "/reg/safergamblingweek.png"
+      }
+    ],
+    "disclosure": "BritCasinoChoice may earn a commission when you sign up to a casino through links on our site. This never affects our ratings, which are based on independent testing. Offers are subject to the operator's terms and conditions."
+  },
+  "trustSignals": [
+    { "label": "UKGC-Licensed Operators Only", "icon": "shield" },
+    { "label": "Independently Reviewed", "icon": "check" },
+    { "label": "18+ | BeGambleAware", "icon": "age" },
+    { "label": "Secure & SSL Encrypted", "icon": "lock" }
+  ],
+  "stats": [
+    { "value": "50+", "label": "Casinos tested" },
+    { "value": "120 hrs", "label": "Reviewing each month" },
+    { "value": "100%", "label": "UKGC-licensed" },
+    { "value": "24/7", "label": "Offers monitored" }
+  ],
+  "brands": [
+    {
+      "id": 1,
+      "slug": "mrq",
+      "name": "MrQ",
+      "logoInitials": "MQ",
+      "logoImage": "/brands/mrq.webp",
+      "logoColor": "#111111",
+      "rating": 4.9,
+      "editorScore": 99,
+      "featured": true,
+      "tagline": "Editor's choice for UK slots players",
+      "bonusHeadline": "Play £10 Get 200 FREE Spins",
+      "bonusExtra": "Min deposit £10",
+      "bonusType": "Welcome Bonus",
+      "minDeposit": 10,
+      "wagering": "See T&Cs",
+      "payoutTime": "1–2 days",
+      "gamesCount": 2000,
+      "established": 2017,
+      "licence": "UKGC Licensed",
+      "features": ["200 free spins offer", "Mobile-first play", "Fast debit withdrawals", "UK support"],
+      "paymentMethods": ["Visa", "Mastercard", "PayPal", "Apple Pay"],
+      "gameTypes": ["Slots", "Megaways", "Jackpots", "Live Casino"],
+      "pros": [
+        "Strong welcome spins package",
+        "Clean mobile experience",
+        "Trusted UK-licensed operator"
+      ],
+      "cons": ["Offer limited to selected slots", "Terms apply to free-spin winnings"],
+      "summary": "MrQ tops our table with a generous Play £10 / Get 200 FREE Spins welcome offer and a polished UK-licensed platform built for slots fans.",
+      "affiliateUrl": "https://mrq.com/",
+      "accentFrom": "#1b5e20",
+      "accentTo": "#2e7d32"
+    },
+    {
+      "id": 2,
+      "slug": "midnite",
+      "name": "Midnite",
+      "logoInitials": "MN",
+      "logoImage": "/brands/midnite.webp",
+      "logoColor": "#00c853",
+      "rating": 4.8,
+      "editorScore": 98,
+      "featured": true,
+      "tagline": "Modern UK casino for spins fans",
+      "bonusHeadline": "Wager £20 Get 150 Free Spins",
+      "bonusExtra": "Min deposit £20",
+      "bonusType": "Welcome Bonus",
+      "minDeposit": 20,
+      "wagering": "See T&Cs",
+      "payoutTime": "1–2 days",
+      "gamesCount": 1700,
+      "established": 2020,
+      "licence": "UKGC Licensed",
+      "features": ["150 free spins offer", "Slick modern lobby", "Fast withdrawals", "UK regulated"],
+      "paymentMethods": ["Visa", "Mastercard", "PayPal", "Apple Pay"],
+      "gameTypes": ["Slots", "Live Casino", "Jackpots", "Table Games"],
+      "pros": [
+        "Straightforward free-spins welcome",
+        "Clean, modern player experience",
+        "UKGC-licensed and trusted"
+      ],
+      "cons": ["£20 minimum wager to qualify", "Spins limited to selected games"],
+      "summary": "Midnite offers a clear Wager £20 / Get 150 Free Spins welcome and a modern UK-licensed casino built for players who want a fast, no-fuss experience.",
+      "affiliateUrl": "https://www.midnite.com/",
+      "accentFrom": "#2e7d32",
+      "accentTo": "#66bb6a"
+    }
+  ],
+  "bonusCategories": [
+    {
+      "slug": "welcome-bonuses",
+      "title": "Welcome Bonuses",
+      "description": "Matched deposits and package deals for new UK players.",
+      "icon": "gift"
+    },
+    {
+      "slug": "no-wager-spins",
+      "title": "No-Wager Spins",
+      "description": "Bonus spins where winnings are yours to keep, no strings.",
+      "icon": "spin"
+    },
+    {
+      "slug": "no-deposit",
+      "title": "No-Deposit Offers",
+      "description": "Try a casino with free spins or credit before you pay in.",
+      "icon": "coin"
+    },
+    {
+      "slug": "cashback",
+      "title": "Cashback & Rebates",
+      "description": "Get a percentage of net losses returned each week.",
+      "icon": "refresh"
+    }
+  ],
+  "guides": [
+    {
+      "slug": "how-we-review-casinos",
+      "title": "How We Review UK Casinos",
+      "excerpt": "Our 25-point testing process, from licence checks to payout timing.",
+      "readTime": "6 min read",
+      "category": "Methodology"
+    },
+    {
+      "slug": "understanding-wagering-requirements",
+      "title": "Understanding Wagering Requirements",
+      "excerpt": "What 35x really means and how to compare bonus terms fairly.",
+      "readTime": "5 min read",
+      "category": "Bonuses"
+    },
+    {
+      "slug": "safer-gambling-tools",
+      "title": "Safer Gambling Tools Explained",
+      "excerpt": "Deposit limits, reality checks, time-outs and self-exclusion.",
+      "readTime": "7 min read",
+      "category": "Safety"
+    },
+    {
+      "slug": "fastest-payout-casinos",
+      "title": "How to Find Fast-Payout Casinos",
+      "excerpt": "Which payment methods clear quickest and what slows withdrawals.",
+      "readTime": "5 min read",
+      "category": "Payments"
+    }
+  ],
+  "reviewCriteria": [
+    { "title": "Licence & Safety", "weight": "25%", "description": "We verify every operator holds a valid UK Gambling Commission licence and uses SSL encryption." },
+    { "title": "Bonuses & Value", "weight": "20%", "description": "We read the small print — wagering, game weighting, time limits and max wins." },
+    { "title": "Payout Speed", "weight": "20%", "description": "We test real withdrawals across debit cards and e-wallets and time them." },
+    { "title": "Game Range", "weight": "15%", "description": "We assess the breadth and quality of slots, live casino and table games." },
+    { "title": "Support & UX", "weight": "10%", "description": "We contact support and rate the mobile and desktop experience." },
+    { "title": "Safer Gambling", "weight": "10%", "description": "We check the depth of deposit limits, time-outs and self-exclusion tools." }
+  ],
+  "faqs": [
+    {
+      "question": "Are the casinos on BritCasinoChoice legal in the UK?",
+      "answer": "Yes. We only list operators that hold a valid licence from the UK Gambling Commission, which is a legal requirement to offer gambling to players in Great Britain."
+    },
+    {
+      "question": "How do you make money?",
+      "answer": "We may receive a commission when a player signs up through our links. This never influences our ratings — reviews are based on independent hands-on testing."
+    },
+    {
+      "question": "Do I have to be 18 to use these casinos?",
+      "answer": "Yes. Online gambling in the UK is strictly for adults aged 18 and over. Operators are legally required to verify your age and identity."
+    },
+    {
+      "question": "What is wagering (playthrough)?",
+      "answer": "Wagering is the number of times you must stake a bonus before you can withdraw related winnings. A '35x' requirement on a £10 bonus means staking £350 in total."
+    },
+    {
+      "question": "How can I gamble more safely?",
+      "answer": "Set deposit and time limits, never chase losses, and take breaks. Free, confidential support is available 24/7 from BeGambleAware on 0808 8020 133."
+    }
+  ]
+}
