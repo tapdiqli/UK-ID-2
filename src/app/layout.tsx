@@ -6,6 +6,7 @@ import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { ComplianceStrip } from "@/components/layout/ComplianceStrip";
 import { CookieConsent } from "@/components/common/CookieConsent";
+import { AgeGate } from "@/components/common/AgeGate";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -86,6 +87,7 @@ export default function RootLayout({
         <main className="flex-1">{children}</main>
         <Footer />
         <CookieConsent />
+        <AgeGate />
       </body>
     </html>
   );
